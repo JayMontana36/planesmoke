@@ -55,7 +55,7 @@ Citizen.CreateThread(function()
 
 				SetParticleFxNonLoopedColour(r + 0.0, g + 0.0, b + 0.0)
 				UseParticleFxAssetNextCall(particleDictionary)
-				p1 = StartParticleFxNonLoopedOnEntity("scr_carsteal4_wheel_burnout", veh, -0.15, -5.0, 0.3, 0, 0, 0, size, 0, 1, 0)
+				p1 = StartParticleFxNonLoopedOnEntity("scr_carsteal4_wheel_burnout", veh, -0.15, -5.0, 0.3, 0, 0, 0, size + 0.0, 0, 1, 0)
 			end
 		end
 	end
